@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size:50px ;
+    font-size:60px ;
     
 }
 .orange-color{
@@ -11,7 +11,7 @@ h1{
 h3{
     font-size:30px;
 }
-section{
+.flexible-container{
     display: flex;
     margin-top: 10px;
     margin-bottom: 100px;
@@ -35,10 +35,36 @@ section{
     background-image: url(fedit/white-bg.jpg);
 }
 h2{
-    font-size: 50px;
+    font-size: 40px;
 }
 .mind-fitness{
     background-image: url(fedit/c1white-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(fedit/orng.jpg);
+    background-repeat: no-repeat;
+}
+.experience-item{
+    width: 50%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(147, 121, 206);
+    
+}
+#web-expo{
+    border-left: 15px solid;
+    border-image: linear-gradient( blue,  cyan);
+    border-image-slice: 1;
+}
+#web-spunk{
+    border-left: 15px solid;
+    border-image: linear-gradient(rgb(241, 3, 181), cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
